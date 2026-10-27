@@ -33,11 +33,11 @@ public:
 
 int main()
 {
-    Calculator<int> c1(10, 5);
+    Calculator<int> c1(17, 5);
     cout << "Integer Calculator:" << endl;
     c1.display();
 
-    Calculator<double> c2(2.5, 1.5);
+    Calculator<double> c2(7.8, 2.5);
     cout << "\nDouble Calculator:" << endl;
     c2.display();
 
